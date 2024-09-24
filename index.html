@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="iconelivro.webp" type="image/x-icon">
+    <title>To-do-list</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de afazeres</h1>
+    </header>
+    <section>
+        <div id="tarefas">
+            <strong>Tarefas</strong>
+            <input type="text" name="texto" id="texto" placeholder="Adicione uma nova tarefa">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <select name="item" id="adicionados" size="10"></select>
+        </div>
+            <input type="button" value="Apagar" onclick="apagar()">
+
+        <div id="itens">
+
+        </div>
+
+
+    </section>
+    <footer>
+        &copy; <strong>Lucas Ricardo Vicari</strong>
+    </footer>
+
+    <div id="contatos">
+       <ol>
+           <li>
+               <img src="free-github-159-721954.webp" alt="giticon">
+               <a href="https://github.com/utchylk">GitHub</a>
+           </li>
+            <li>
+                <img src="free-linkedin-4408619-3649977.webp" alt="linkedinicon">
+                <a href="https://www.linkedin.com/in/lucas-ricardo-vicari-826a13248/">LinkedIn</a>
+            </li>
+       </ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
